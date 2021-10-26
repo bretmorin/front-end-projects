@@ -1,20 +1,27 @@
-.container {
-    display: grid;
-    grid-template-rows: 1fr;
-}
-
 
 /* Top Nav */
 .top-nav {
     display: flex;
-    flex: 1;
     border: solid red 2px;
+    justify-content: space-around;
+}
+
+.logo {
+    flex: 1 auto;
+    align-self: center;
+}
+
+
+ul {
+    align-self: center;
+
 }
 
 nav {
     font-size: 24px;
     color: #f9faf8
 }
+
 
 a {
     font-size: 18px;
@@ -24,6 +31,10 @@ a {
 
 
 /* Hero */
+.hero-align {
+    display: flex;
+}
+
 .hero-head {
     color: #f9faf8;
     font-size: 48px;

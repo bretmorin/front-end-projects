@@ -30,18 +30,22 @@ a {
 /* Hero */
 .hero-align {
     display: flex;
-    align-content: center;
+    justify-content: center;
     align-items: center;
-    padding: 100px;
+    padding: 6rem;
+    flex-wrap: wrap;
+    border: solid purple 2px;
 }
 
 .left-hero {
-    display: flex;
+    /* display: flex; */
     flex: 1;
+    border: solid red 2px;
 }
 
 .left-box {
-    margin: 0px 50px 0px 0px;
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-head {
@@ -49,7 +53,6 @@ a {
     font-size: 48px;
     font-style: bold;
     font-weight: bolder;
-    margin: 0px 0px 0px 50px;
 }
 
 .subheader {
@@ -57,25 +60,31 @@ a {
     font-size: 18px;
     font-style: bold;
     font-weight: bolder;
-    margin: 0px 0px 0px 50px;
 }
 
 .btn {
-    margin-left: 50px;
-}
-
-.right-box {
-    margin: 0px 0px 0px 50px;
+    
 }
 
 .right-hero {
-    display: flex;
+    /* display: flex; */
     flex: 1;
     border: solid red 2px;
-    text-align: center;
-    padding: 100px;
+    background-color: #eee;
 }
 
+.right-box {
+    justify-content: center;
+    align-items: center;
+}
+
+.img-placeholder {
+    /* display: flex; */
+    text-align: center;
+    font-size: 18px;
+    font-style: bold;
+    font-weight: bolder;
+}
 
 /* 2nd Section */
 .info-container {

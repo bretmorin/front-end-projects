@@ -4,17 +4,17 @@
     display: flex;
     border: solid red 2px;
     justify-content: space-around;
+    padding: 0px 100px 0 100px;
 }
 
 .logo {
     flex: 1 auto;
     align-self: center;
+    color: black;
 }
-
 
 ul {
     align-self: center;
-
 }
 
 nav {
@@ -22,32 +22,60 @@ nav {
     color: #f9faf8
 }
 
-
 a {
     font-size: 18px;
-    color: #e5e7eb;
+    color: black;
 }
-
-
 
 /* Hero */
 .hero-align {
     display: flex;
+    align-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.left-hero {
+    display: flex;
+    flex: 1;
+}
+
+.left-box {
+    margin: 0px 50px 0px 0px;
 }
 
 .hero-head {
-    color: #f9faf8;
+    color: black;
     font-size: 48px;
     font-style: bold;
     font-weight: bolder;
+    margin: 0px 0px 0px 50px;
 }
 
 .subheader {
-    color: #e5e7eb;
+    color: black;
     font-size: 18px;
     font-style: bold;
     font-weight: bolder;
+    margin: 0px 0px 0px 50px;
 }
+
+.btn {
+    margin-left: 50px;
+}
+
+.right-box {
+    margin: 0px 0px 0px 50px;
+}
+
+.right-hero {
+    display: flex;
+    flex: 1;
+    border: solid red 2px;
+    text-align: center;
+    padding: 100px;
+}
+
 
 /* 2nd Section */
 .info-container {
@@ -167,3 +195,7 @@ a {
 }
 
 /* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+}

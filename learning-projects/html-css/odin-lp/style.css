@@ -1,4 +1,8 @@
 
+body {
+    margin: 0 auto;
+}
+
 /* Top Nav */
 .top-nav {
     display: flex;
@@ -207,7 +211,7 @@ nav {
     display: flex;
     border-radius: 10px;
     background: #3882f6;
-    padding: 50px 100px 50px 100px;
+    padding: 3rem;
     align-items: center;
     justify-content: space-between;
 }
@@ -218,11 +222,11 @@ nav {
 }
 
 h4 {
+    text-align: left;
     font-size: 24px;
     font-style: bold;
     padding: 20px 20px 5px 20px;
     margin: 0 50px 0 0;
-    text-align: left;
 }
 
 .cta-p {
@@ -246,7 +250,7 @@ h4 {
     border-radius: 10px;
     font-size: 18px;
     font-style: bold;
-    padding: 8px 40px;
+    padding: 1rem;
 }
 
 .cta-btn-1:hover, .cta-btn-1:active {
